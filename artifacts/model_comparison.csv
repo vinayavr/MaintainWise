@@ -1,0 +1,6 @@
+algorithm,accuracy,precision,recall,f1,roc_auc,best_params,run_id
+RandomForest,0.977,0.625,0.8088235294117647,0.7051282051282052,0.9664474485446353,"{""model__n_estimators"": 100, ""model__min_samples_leaf"": 1, ""model__max_depth"": null}",b25afd946d004093b701d44fff75b352
+DecisionTree,0.968,0.5196078431372549,0.7794117647058824,0.6235294117647059,0.9210358056265985,"{""model__min_samples_leaf"": 3, ""model__max_depth"": null}",8e5c7099f3ff45a3bc495a4c9d5a2e5d
+XGBoost,0.9565,0.43448275862068964,0.9264705882352942,0.5915492957746479,0.9798517232980148,"{""model__n_estimators"": 150, ""model__max_depth"": 3, ""model__learning_rate"": 0.1}",d3ee8410cb3b496ebee622709a826fca
+SVM,0.919,0.28440366972477066,0.9117647058823529,0.43356643356643354,0.9730011569845329,"{""model__kernel"": ""rbf"", ""model__C"": 0.5}",9a8c7a7aa81e465a84b0b245c586f301
+LogisticRegression,0.862,0.18098159509202455,0.8676470588235294,0.29949238578680204,0.9347826086956522,"{""model__solver"": ""liblinear"", ""model__C"": 5.0}",21ee315f6756483496e8fcb912594d50

@@ -1,0 +1,21 @@
+Issue Type,Summary,Epic Name,Story Points,Priority,Acceptance Criteria
+Epic,Product planning and requirements,E1 Product Planning,,High,PRD and test cases saved
+Epic,Data ingestion and cleaning,E2 Data Pipeline,,High,Cleaned CSV and Parquet saved
+Epic,EDA and feature engineering,E3 EDA and Features,,High,Required charts and derived features saved
+Epic,Model training and evaluation,E4 Model Development,,Highest,Five classifiers evaluated
+Epic,MLflow tracking and registry,E5 MLOps,,Highest,Five runs and best model registered
+Epic,Gradio and Hugging Face deployment,E6 Deployment,,Highest,Public Space works
+Epic,Report and demo,E7 Documentation,,High,Report and evidence complete
+Story,Write PRD and define acceptance criteria,E1 Product Planning,2,High,PRD describes users problem scope and metrics
+Story,Create test cases,E1 Product Planning,2,High,Test cases have expected outcomes
+Story,Download and inspect AI4I CSV,E2 Data Pipeline,1,Highest,Dataset source and columns verified
+Story,Clean data and export Parquet,E2 Data Pipeline,3,High,Cleaning summary and Parquet saved
+Story,Create EDA charts,E3 EDA and Features,3,High,Class balance heatmap distributions and boxplots saved
+Story,Engineer power and temperature difference,E3 EDA and Features,2,High,Derived features are documented
+Story,Train Logistic Regression and Decision Tree,E4 Model Development,3,High,Metrics recorded
+Story,Train Random Forest SVM and XGBoost,E4 Model Development,5,Highest,All five algorithms evaluated
+Story,Log metrics and artifacts in MLflow,E5 MLOps,3,Highest,Five runs visible
+Story,Register selected model,E5 MLOps,2,Highest,Model version visible in registry
+Story,Build Gradio app,E6 Deployment,3,Highest,Prediction and probability shown
+Story,Deploy Space and test public URL,E6 Deployment,3,Highest,Public app responds
+Story,Compile report and screenshots,E7 Documentation,5,High,All report chapters covered

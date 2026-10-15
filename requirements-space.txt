@@ -1,0 +1,7 @@
+gradio==6.30.0
+pandas==2.3.3
+numpy
+scikit-learn==1.9.1
+imbalanced-learn==0.14.2
+xgboost==3.4.1
+joblib==1.6.0
